@@ -173,7 +173,8 @@ image: ""
         shopImages: [
             "images/location/shop1.webp",
             "images/location/shop2.webp",
-            "images/location/shop3.webp"
+            "images/location/shop3.webp",
+            "images/location/shop4.webp"
         ],
         businessHours: "11:00 - 18:00（l.o 17:30）",
         schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
@@ -189,6 +190,7 @@ image: ""
     }
 
 };
+
 
 
 
