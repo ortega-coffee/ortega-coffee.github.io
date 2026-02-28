@@ -154,9 +154,9 @@ const siteContent = {
             "images/location/shop2.webp",
             "images/location/shop3.webp"
         ],
-        businessHours: "00:00 - 00:00",
-        schedule: "<span class='ib'>定休日：土曜・日曜・月曜</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
-        address: "〒957-0231 新潟県新発田市<br>藤塚浜4068-15",
+        businessHours: "11:00 - 18:00（l.o 17:30）",
+        schedule: "<span class='ib'>定休日：月曜</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
+        address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
         email: "ortcaffe.s@gmail.com",
         mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.588012278159!2d139.03213437427448!3d37.91669140397503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9c230075f3b%3A0xcdc94edecf711aa9!2z44CSOTUxLTgxMjYg5paw5r2f55yM5paw5r2f5biC5Lit5aSu5Yy65a2m5qCh55S66YCa77yS55Wq55S677yV77yZ77yYIOWJsueDueOBvuOBpOOChA!5e0!3m2!1sja!2sjp!4v1772284139444!5m2!1sja!2sjp"
@@ -168,6 +168,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
