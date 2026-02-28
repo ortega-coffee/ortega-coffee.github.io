@@ -426,9 +426,10 @@
     <section id="onlinestore" class="py-24 bg-stone-950 border-t border-white/5">
         <div class="container mx-auto px-8 max-w-6xl">
             <div class="text-center mb-16 reveal">
-                <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
-                <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
-            </div>
+    <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
+    <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
+    <p id="store-note" class="text-[10px] text-stone-500 tracking-widest mt-4 opacity-60"></p> 
+</div>
             <div id="store-items-container" class="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-16"></div>
             <div class="mt-20 text-center reveal">
                 <a id="store-btn-link" href="" target="_blank" rel="noopener noreferrer" class="inline-block border border-stone-800 px-16 py-4 text-[11px] tracking-[0.4em] uppercase text-stone-300 hover:border-white hover:text-white transition-all"></a>
@@ -648,6 +649,7 @@
 
             document.getElementById('store-label').innerHTML = config.store.sectionLabel;
             document.getElementById('store-title').innerHTML = config.store.sectionTitle;
+            document.getElementById('store-note').innerHTML = config.store.note || "";
             const storeBtn = document.getElementById('store-btn-link');
             storeBtn.innerHTML = config.store.buttonText;
             storeBtn.href = config.common.links.baseShop;
@@ -893,4 +895,5 @@
 </body>
 
 </html>
+
 
