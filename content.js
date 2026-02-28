@@ -119,7 +119,7 @@ const siteContent = {
     // --- オンラインストア (STORE) ---
     store: {
         sectionLabel: "Store",
-        sectionTitle: "Selected Beans　<small>小さくしたいテキスト</small> ",
+        sectionTitle: "Selected Beans<br>※売り切れの際はご容赦ください",
         buttonText: "Online Shop<br class='m-br'>（外部サイト<strong>BASE</strong>へ移動します）",
         items: [
             {
@@ -172,6 +172,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
