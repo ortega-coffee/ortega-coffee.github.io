@@ -123,18 +123,18 @@ const siteContent = {
         buttonText: "Online Shop<br class='m-br'>（外部サイト<strong>BASE</strong>へ移動します）",
         items: [
             {
-                name: "エルサルバドル マラカラ・ウォッシュド（中深煎り） 100g<br>※売り切れの際はご容赦ください",
+                name: "エルサルバドル マラカラ・ウォッシュド（中深煎り）<br>※売り切れの際はご容赦ください",
                 price: "¥950",
                 image: "images/store/Beans1.webp"
             },
             {
-                name: "テスト2",
-                price: "¥900",
+                name: "エチオピア イルガチェ・イディド・W（中深煎り）<br>※売り切れの際はご容赦ください",
+                price: "¥950",
                 image: "images/store/Beans2.webp"
             },
             {
-                name: "テスト3",
-                price: "¥1,000",
+                name: "ルワンダ キニニ・ターナー（深煎り）<br>※売り切れの際はご容赦ください",
+                price: "¥900",
                 image: "images/store/Beans3.webp"
             },
         ]
@@ -172,6 +172,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
