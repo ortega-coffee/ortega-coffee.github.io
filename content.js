@@ -119,21 +119,21 @@ const siteContent = {
     // --- オンラインストア (STORE) ---
     store: {
         sectionLabel: "Store",
-        sectionTitle: "Selected Beans",
+        sectionTitle: "Selected Beans ※売り切れの際はご容赦ください",
         buttonText: "Online Shop<br class='m-br'>（外部サイト<strong>BASE</strong>へ移動します）",
         items: [
             {
-                name: "エルサルバドル マラカラ・ウォッシュド（中深煎り）<br>※売り切れの際はご容赦ください",
+                name: "エルサルバドル マラカラ・ウォッシュド（中深煎り）",
                 price: "¥950",
                 image: "images/store/Beans1.webp"
             },
             {
-                name: "エチオピア イルガチェ・イディド・W（中深煎り）<br>※売り切れの際はご容赦ください",
+                name: "エチオピア イルガチェ・イディド・W（中深煎り）",
                 price: "¥950",
                 image: "images/store/Beans2.webp"
             },
             {
-                name: "ルワンダ キニニ・ターナー（深煎り）<br>※売り切れの際はご容赦ください",
+                name: "ルワンダ キニニ・ターナー（深煎り）",
                 price: "¥900",
                 image: "images/store/Beans3.webp"
             },
@@ -159,7 +159,7 @@ const siteContent = {
             "images/location/shop3.webp"
         ],
         businessHours: "11:00 - 18:00（l.o 17:30）",
-        schedule: "<span class='ib'>定休日：月曜</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
+        schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
         address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
         email: "ortcaffe.s@gmail.com",
@@ -172,6 +172,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
