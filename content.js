@@ -76,17 +76,10 @@ const siteContent = {
                 image: "" 
             },
             {
-                date: "2026.02.14",
-                tag: "Item",
-                title: "テスト2",
-                content: `販売中。`,
-                image: "images/news/news2.webp"
-            },
-            {
-                date: "2026.02.13",
+                date: "2026.02.28",
                 tag: "Info",
-                title: "テスト1",
-                content: `珈琲オルテガのウェブサイトを作ってみた。`,
+                title: "ホームページ開設",
+                content: `プレオープンに合わせて作成してみました。`,
                 image: "" 
             }
         ]
@@ -130,8 +123,8 @@ const siteContent = {
         buttonText: "Online Shop<br class='m-br'>（外部サイト<strong>BASE</strong>へ移動します）",
         items: [
             {
-                name: "テスト1",
-                price: "¥1,000",
+                name: "エルサルバドル マラカラ・ウォッシュド（中深煎り） 100g<br>※売り切れの際はご容赦ください",
+                price: "¥950",
                 image: "images/store/Beans1.webp"
             },
             {
@@ -179,6 +172,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
