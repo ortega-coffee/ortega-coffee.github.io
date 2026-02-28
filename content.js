@@ -165,7 +165,7 @@ const siteContent = {
         address: "〒957-0231 新潟県新発田市<br>藤塚浜4068-15",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
         email: "ortcaffe.s@gmail.com",
-        mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3142.6604879402043!2d139.3043805742819!3d38.03169379732157!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f8b381c4c277651%3A0x25f67ea8758b7a0e!2z44CSOTU3LTAyMzEg5paw5r2f55yM5paw55m655Sw5biC6Jek5aGa5rWc77yU77yQ77yW77yY4oiS77yR77yV!5e0!3m2!1sja!2sjp!4v1770901552253!5m2!1sja!2sjp"
+        mapEmbed: "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.588012278159!2d139.03213437427448!3d37.91669140397503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9c230075f3b%3A0xcdc94edecf711aa9!2z44CSOTUxLTgxMjYg5paw5r2f55yM5paw5r2f5biC5Lit5aSu5Yy65a2m5qCh55S66YCa77yS55Wq55S677yV77yZ77yYIOWJsueDueOBvuOBpOOChA!5e0!3m2!1sja!2sjp!4v1772284139444!5m2!1sja!2sjp"
     },
 
     // --- フッター (FOOTER) ---
@@ -174,4 +174,5 @@ const siteContent = {
     }
 
 };
+
 
