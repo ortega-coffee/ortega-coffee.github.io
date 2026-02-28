@@ -90,7 +90,7 @@ const siteContent = {
     concept: {
         sectionLabel: "CONCEPT",
         title: "<span class='ib'>手廻し焙煎、</span><span class='ib'>ネルドリップ。</span><br><span class='ib'>深煎りを中心とした</span><span class='ib'>余韻と、</span><br><span class='ib'>色気のある</span><span class='ib'>珈琲を。</span>",
-        text: `<p>お店のコンセプトとか</p>
+        text: `<p>お店のコンセプトとか</p> //お店のコンセプトとか
                <p>伝えたいこととか</p>`,
         image: "images/concept/concept.webp"
     },
@@ -174,6 +174,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
