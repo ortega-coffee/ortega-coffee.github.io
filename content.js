@@ -172,7 +172,6 @@ image: ""
 
         shopImages: [
             "images/location/shop1.webp",
-            "images/location/shop2.webp",
             "images/location/shop3.webp",
             "images/location/shop4.webp"
         ],
@@ -190,6 +189,7 @@ image: ""
     }
 
 };
+
 
 
 
