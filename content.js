@@ -26,7 +26,7 @@ const siteContent = {
         textureOverlay: "images/icon/texture.webp",    
         
         icons: {
-            instagram: "images/icon/Instagram.svg",
+            instagram: "images/icon/instagram.svg",
             facebook: "images/icon/facebook.svg",
             threads: "images/icon/threads.svg"
         }
@@ -167,4 +167,5 @@ const siteContent = {
     footer: {
         copyRight: "© 2026 珈琲オルテガ All Rights Reserved."
     }
+
 };
