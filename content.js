@@ -79,9 +79,10 @@ const siteContent = {
                 date: "2026.02.28",
                 tag: "Info",
                 title: "ホームページ開設",
-                content: `プレオープンに合わせて作成してみました。`,
+                content: `プレオープンに合わせて作成しました。メニューなどは準備中です。暫しお待ちください。
+                `,
                 image: "" 
-            }
+            },
         ]
     },
 
@@ -173,6 +174,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
