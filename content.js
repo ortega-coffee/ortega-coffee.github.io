@@ -101,16 +101,16 @@ const siteContent = {
         items: [
             {
                 category: "", 
-                name: "珈琲",
+                name: "準備中",
                 subName: "", 
-                price: "¥1,000",
-                image: "images/menu/menu1.webp" 
+                price: "",
+                image: "" 
             },
             {
-                category: "カテゴリ部分",
-                name: "コーヒー",
-                subName: "紹介文とか",
-                price: "¥350 ~",
+                category: "",
+                name: "",
+                subName: "",
+                price: "",
                 image: "" 
             },
         ]
@@ -173,6 +173,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
