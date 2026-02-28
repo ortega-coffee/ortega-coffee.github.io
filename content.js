@@ -164,6 +164,12 @@ image: ""
         schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'>（臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします）</span>",
         address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
+        note: `【お客様へのお願い】
+・一滴一滴、ネルドリップでお淹れするため、お時間を頂戴いたします。
+・お支払いは現金のみとさせていただいております。
+・専用駐車場はございません。近隣のコインパーキングをご利用ください。
+・閑静な住宅街のため、路上駐車や騒音等、周囲へのご配慮を心よりお願い申し上げます。`,
+}
         email: "ortcaffe.s@gmail.com",
         mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.588012278159!2d139.03213437427448!3d37.91669140397503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9c230075f3b%3A0xcdc94edecf711aa9!2z44CSOTUxLTgxMjYg5paw5r2f55yM5paw5r2f5biC5Lit5aSu5Yy65a2m5qCh55S66YCa77yS55Wq55S677yV77yZ77yYIOWJsueDueOBvuOBpOOChA!5e0!3m2!1sja!2sjp!4v1772284139444!5m2!1sja!2sjp"
     },
@@ -174,6 +180,7 @@ image: ""
     }
 
 };
+
 
 
 
