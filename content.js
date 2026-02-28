@@ -101,7 +101,7 @@ const siteContent = {
         items: [
             {
                 category: "", 
-                name: "準備中",
+                name: "準備中です。解禁まで、今しばらくお待ちください。",
                 subName: "", 
                 price: "",
                 image: "" 
@@ -173,6 +173,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
