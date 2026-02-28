@@ -20,7 +20,7 @@ Repositoriesをクリックし、ortega-coffee.github.ioのリンクをクリッ
 - `images` フォルダの中に新しい写真をアップロードしてください。
 - `content.js` 内の画像パス（`images/icon/...` など）を新しいファイル名に書き換えます。
 - ※基本的に.webpという拡張子を使っているので、.jpegとかを使いたい場合は.webpに変換するか、contents.jaの画像パス部分をjpegに書き換えてください。
-- ちなみにWebpへの圧縮はhttps://squoosh.app/を使ってます。
+- ちなみにWebpへの圧縮は https://squoosh.app/ を使ってます。
 
 項目を増やしたいときは
 {   },   こういうので文章とかが括られていると思うので、それをコピペで増やしていけば項目が増えます。
