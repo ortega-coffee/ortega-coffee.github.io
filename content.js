@@ -97,7 +97,7 @@ const siteContent = {
     // --- メニュー (STAND MENU) ---
     menu: {
         sectionLabel: "MENU",
-        sectionTitle: "List",
+        sectionTitle: "COMING SOON", // 普段であればListで。今はCOMING SOONに。
         items: [
             {
                 category: "", 
@@ -173,6 +173,7 @@ const siteContent = {
     }
 
 };
+
 
 
 
