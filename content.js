@@ -186,12 +186,10 @@ image: ""
 
     // --- フッター (FOOTER) ---
     footer: {
-        privacyNotice: "当サイトでは、Googleによるアクセス解析ツール「Googleアナリティクス」を使用しています。このデータは匿名で収集されており、個人を特定するものではありません。詳細はGoogleの<a href='https://policies.google.com/technologies/ads?hl=ja' target='_blank' rel='noopener noreferrer' class='underline hover:text-stone-500 transition-colors'>規約</a>をご覧ください。",
         copyRight: "© 2026 珈琲オルテガ All Rights Reserved."
     }
 
 };
-
 
 
 
