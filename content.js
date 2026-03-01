@@ -122,13 +122,6 @@ image: ""
                 price: "",
                 image: "" 
             },
-            {
-                category: "",
-                name: "",
-                subName: "",
-                price: "",
-                image: "" 
-            },
         ]
     },
 
@@ -191,6 +184,7 @@ image: ""
     }
 
 };
+
 
 
 
