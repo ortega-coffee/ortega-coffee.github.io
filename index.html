@@ -487,10 +487,12 @@
     </section>
 
     <footer id="footer" class="bg-stone-950 border-t border-white/5">
-        <div class="container mx-auto px-8 text-center pt-8 pb-8">
-            <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
-        </div>
-    </footer>
+    <div class="container mx-auto px-8 text-center pt-12 pb-8">
+        <p id="footer-privacy" class="text-[10px] text-stone-600 tracking-wider mb-8 leading-relaxed max-w-2xl mx-auto"></p>
+        
+        <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
+    </div>
+</footer>
 
     <div id="news-modal" class="fixed inset-0 z-[3000] flex items-center justify-center p-4">
         <div class="absolute inset-0 bg-black/85" onclick="closeNewsModal()"></div>
@@ -703,6 +705,7 @@
             document.getElementById('footer-fb-img').src = config.images.icons.facebook;
             document.getElementById('footer-threads').href = config.common.links.threads;
             document.getElementById('footer-threads-img').src = config.images.icons.threads;
+            document.getElementById('footer-privacy').innerHTML = config.footer.privacyNotice;
             document.getElementById('footer-copy').innerHTML = config.footer.copyRight;
 
             lucide.createIcons();
@@ -901,6 +904,7 @@
 </body>
 
 </html>
+
 
 
 
