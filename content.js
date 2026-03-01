@@ -181,7 +181,7 @@ image: ""
         address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
         email: "ortcaffe.s@gmail.com",
-        mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3148.6672323381673!2d139.03221227659617!3d37.91491110375822!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9992c900e4d%3A0xe37415e718698007!2z44CSOTUxLTgxMjYg5paw5r2f55yM5paw5r2f5biC5Lit5aSu5Yy65a2m5qCh55S66YCa77yS55Wq55S677yV77yZ77yY!5e0!3m2!1sja!2sjp!4v1740811554523!5m2!1sja!2sjp"
+        mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d467.89119386199155!2d139.03467200895668!3d37.91677999745131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c9c23ad8564d%3A0xdb0b967f8f6af8f!2z5aSn6KGG5Ymy54O5IOOBvuOBpOOChA!5e0!3m2!1sja!2sjp!4v1772331112393!5m2!1sja!2sjp"
     },
 
     // --- フッター (FOOTER) ---
@@ -190,6 +190,7 @@ image: ""
     }
 
 };
+
 
 
 
