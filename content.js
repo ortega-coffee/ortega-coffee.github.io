@@ -19,7 +19,7 @@ const siteContent = {
 
     // --- 画像・アイコン設定 ---
     images: {
-        logo: "images/icon/a.gif", 
+        logo: "images/icon/a (2).gif", 
         
         // 画面全体のエフェクト用画像
         noiseOverlay: "images/icon/noise.svg",      
@@ -184,6 +184,7 @@ image: ""
     }
 
 };
+
 
 
 
