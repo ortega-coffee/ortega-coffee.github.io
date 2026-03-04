@@ -114,7 +114,7 @@
     <div id="redirect-progress"></div>
 
     <script>
-        // 数字のカウントダウン処理
+        // 数字のカウントダウン処理とリダイレクトを統合
         let timeLeft = 5;
         const timerElement = document.getElementById('timer');
         const countdownText = document.getElementById('countdown-text');
@@ -126,16 +126,9 @@
             } else {
                 clearInterval(countdown);
                 countdownText.style.opacity = '0'; // 0になったらテキストをフェードアウト
+                window.location.href = "https://ortega-coffee.github.io/"; // JS側で確実にリダイレクト
             }
         }, 1000);
-
-        // CSSアニメーション(バーの伸び)の終了に合わせてリダイレクト
-        const progressBar = document.getElementById('redirect-progress');
-        progressBar.addEventListener('animationend', () => {
-            setTimeout(() => {
-                 window.location.href = "https://ortega-coffee.github.io/";
-            }, 300);
-        });
     </script>
 </body>
 </html>
