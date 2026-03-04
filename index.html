@@ -16,7 +16,7 @@
 
     <link rel="preload" as="image" href="images/top/top.webp" fetchpriority="high">
     
-    <meta name="google-site-verification" content="s1ejLc_qXq98s1f00v_g58hCmCCOla7e1pErAheB2lI" />
+<meta name="google-site-verification" content="s1ejLc_qXq98s1f00v_g58hCmCCOla7e1pErAheB2lI" />
     
     <title>珈琲オルテガ | 新潟市中央区の手廻し焙煎・ネルドリップ深煎り珈琲店</title>
     <meta name="description" content="新潟県新潟市中央区にある自家焙煎店「珈琲オルテガ」の公式サイト。手廻し焙煎とネルドリップにこだわり、深煎りを中心とした「余韻と色気」のあるコーヒーを提供します。店舗での喫茶ほか、珈琲豆の店頭販売やオンラインショップ（BASE）での通販も行っています。">
@@ -63,14 +63,10 @@
         :root { 
             --mobile-br: block;
         }
-        
         img {
-            /* 選択とドラッグを無効化しつつ、クリック判定は残す */
-            -webkit-user-select: none;
-            user-select: none;
-            -webkit-user-drag: none;
-            -webkit-touch-callout: none;
-        }
+    pointer-events: none;
+    -webkit-touch-callout: none; /* iPhoneでの長押し保存も抑制 */
+}
         
         @media (min-width: 768px) {
             :root { --mobile-br: none; }
@@ -196,12 +192,13 @@
         }
 
         .nav-scrolled {
-            background-color: rgba(12, 10, 9, 0.95); 
-            backdrop-filter: blur(12px);
-            padding-top: 0.7rem !important; 
-            padding-bottom: 0.7rem !important;
-            border-bottom: 1px solid rgba(255,255,255,0.05);
-        }
+    background-color: rgba(12, 10, 9, 0.95); 
+    backdrop-filter: blur(12px);
+    /* スクロール時は上下の余白をさらに少しだけ詰めます */
+    padding-top: 0.7rem !important; 
+    padding-bottom: 0.7rem !important;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
 
         #pc-nav-container a {
             position: relative;
@@ -286,6 +283,7 @@
             opacity: 1;
         }
 
+        /* --- Google Map Smooth Hover Design --- */
         #map-container {
             position: relative;
             overflow: hidden;
@@ -293,37 +291,41 @@
         }
 
         #access-map {
+            /* 初期状態：モノクロ・色反転（ダーク化） */
             filter: grayscale(100%) invert(92%) contrast(83%) brightness(95%);
+            /* じわーっと色を戻すための設定 */
             transition: filter 1.2s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
             z-index: 800;
+            /* 最初は地図の操作を無効にしてページスクロールを優先する */
             pointer-events: none;
         }
 
+        /* ホバー時またはアクティブクラス付与時に通常のカラーに戻し、操作を有効化 */
         #map-container:hover #access-map,
         #map-container.is-active #access-map {
             filter: grayscale(30%) invert(0%) contrast(95%) brightness(85%);
             pointer-events: auto;
         }
 
-        #map-overlay::after {
-            content: "タップして地図を操作";
-            position: absolute;
-            top: 50%; left: 50%;
-            transform: translate(-50%, -50%);
-            color: white;
-            background: rgba(0,0,0,0.6);
-            padding: 8px 16px;
-            font-size: 12px;
-            pointer-events: none;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        
-        #map-container:hover #map-overlay::after {
-            opacity: 1;
-        }
-        
+        /* 地図の上の目に見えないレイヤー（スマホの最初のタッチ用） */
+        /* 改善案のCSSイメージ */
+#map-overlay::after {
+    content: "Tap to interact";
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background: rgba(0,0,0,0.6);
+    padding: 8px 16px;
+    font-size: 12px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+#map-container:hover #map-overlay::after {
+    opacity: 1;
+}
         #map-container.is-active #map-overlay {
             display: none;
         }
@@ -331,7 +333,7 @@
         body.menu-open #navbar #hamburger-btn { opacity: 0; pointer-events: none; }
     </style>
 </head>
-<body class="selection:bg-stone-100 selection:text-stone-900">
+    <body class="selection:bg-stone-100 selection:text-stone-900">
 
     <svg style="position: fixed; width: 0; height: 0; pointer-events: none;">
       <filter id="sugar-melt-filter">
@@ -433,11 +435,11 @@
 
     <section id="onlinestore" class="py-24 bg-stone-950 border-t border-white/5">
         <div class="container mx-auto px-8 max-w-6xl">
-            <div class="text-center mb-16 reveal">
-                <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
-                <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
-                <p id="store-note" class="text-[10px] text-stone-400 tracking-widest mt-4"></p>
-            </div>
+<div class="text-center mb-16 reveal">
+    <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
+    <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
+    <p id="store-note" class="text-[10px] text-stone-400 tracking-widest mt-4"></p>
+</div>
             <div id="store-items-container" class="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-16"></div>
             <div class="mt-20 text-center reveal">
                 <a id="store-btn-link" href="" target="_blank" rel="noopener noreferrer" class="inline-block border border-stone-800 px-16 py-4 text-[11px] tracking-[0.4em] uppercase text-stone-300 hover:border-white hover:text-white transition-all"></a>
@@ -489,11 +491,12 @@
     </section>
 
     <footer id="footer" class="bg-stone-950 border-t border-white/5">
-        <div class="container mx-auto px-8 text-center pt-12 pb-8">
-            <p id="footer-privacy" class="text-[10px] text-stone-600 tracking-wider mb-8 leading-relaxed max-w-2xl mx-auto"></p>
-            <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
-        </div>
-    </footer>
+    <div class="container mx-auto px-8 text-center pt-12 pb-8">
+        <p id="footer-privacy" class="text-[10px] text-stone-600 tracking-wider mb-8 leading-relaxed max-w-2xl mx-auto"></p>
+        
+        <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
+    </div>
+</footer>
 
     <div id="news-modal" class="fixed inset-0 z-[3000] flex items-center justify-center p-4">
         <div class="absolute inset-0 bg-black/85" onclick="closeNewsModal()"></div>
@@ -613,11 +616,9 @@
             newsMoreLink.innerHTML = config.news.viewMoreText;
             newsMoreLink.href = config.common.links.instagram;
 
-            document.getElementById('news-container').innerHTML = config.news.articles.map(item => {
-                const imageAttr = item.image ? `data-image="${item.image}"` : "";
-                return `
+            document.getElementById('news-container').innerHTML = config.news.articles.map(item => `
                 <div class="news-item border-b border-white/5 pb-6 group cursor-pointer transition-colors"
-                     data-date="${item.date}" data-tag="${item.tag}" data-title="${item.title}" ${imageAttr}>
+                     data-date="${item.date}" data-tag="${item.tag}" data-title="${item.title}" data-image="${item.image}">
                     <div class="hidden-content hidden">${item.content}</div>
                     <div class="flex flex-col md:flex-row md:items-baseline gap-2 md:gap-8 pointer-events-none">
                         <div class="flex items-center gap-4">
@@ -627,8 +628,7 @@
                         <p class="text-[14px] text-stone-300 font-light tracking-wider group-hover:text-white transition-colors">${item.title}</p>
                     </div>
                 </div>
-                `;
-            }).join('');
+            `).join('');
 
             document.getElementById('concept-label').innerHTML = config.concept.sectionLabel;
             document.getElementById('concept-title').innerHTML = config.concept.title;
@@ -740,12 +740,8 @@
                     document.getElementById('modal-body').innerHTML = item.querySelector('.hidden-content').innerHTML;
                     const src = item.getAttribute('data-image');
                     const container = document.getElementById('modal-image-container');
-                    if (src && src !== "null" && src !== "undefined") { 
-                        document.getElementById('modal-image').src = src; 
-                        container.classList.remove('hidden'); 
-                    } else { 
-                        container.classList.add('hidden'); 
-                    }
+                    if (src) { document.getElementById('modal-image').src = src; container.classList.remove('hidden'); }
+                    else { container.classList.add('hidden'); }
                     newsModal.classList.add('active');
                     bodyScrollLock.lock();
                 });
@@ -910,4 +906,5 @@
         window.addEventListener('scroll', checkNavScroll, { passive: true });
     </script>
 </body>
+
 </html>
