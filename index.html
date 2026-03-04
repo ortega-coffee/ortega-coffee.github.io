@@ -65,7 +65,7 @@
         }
         img {
     pointer-events: none;
-    -webkit-touch-callout: none; /* iPhoneでの長押し保存も抑制 */
+    -webkit-touch-callout: none; 
 }
         
         @media (min-width: 768px) {
@@ -194,7 +194,6 @@
         .nav-scrolled {
     background-color: rgba(12, 10, 9, 0.95); 
     backdrop-filter: blur(12px);
-    /* スクロール時は上下の余白をさらに少しだけ詰めます */
     padding-top: 0.7rem !important; 
     padding-bottom: 0.7rem !important;
     border-bottom: 1px solid rgba(255,255,255,0.05);
@@ -291,25 +290,19 @@
         }
 
         #access-map {
-            /* 初期状態：モノクロ・色反転（ダーク化） */
             filter: grayscale(100%) invert(92%) contrast(83%) brightness(95%);
-            /* じわーっと色を戻すための設定 */
             transition: filter 1.2s cubic-bezier(0.4, 0, 0.2, 1);
             position: relative;
             z-index: 800;
-            /* 最初は地図の操作を無効にしてページスクロールを優先する */
             pointer-events: none;
         }
 
-        /* ホバー時またはアクティブクラス付与時に通常のカラーに戻し、操作を有効化 */
         #map-container:hover #access-map,
         #map-container.is-active #access-map {
             filter: grayscale(30%) invert(0%) contrast(95%) brightness(85%);
             pointer-events: auto;
         }
 
-        /* 地図の上の目に見えないレイヤー（スマホの最初のタッチ用） */
-        /* 改善案のCSSイメージ */
 #map-overlay::after {
     content: "Tap to interact";
     position: absolute;
@@ -886,8 +879,7 @@
             initScrollAnimations();
             initNavHighlight();
             checkNavScroll();
-
-            // マップのインタラクション開始処理 (スマホ・タブレット向け)
+            
             const mapContainer = document.getElementById('map-container');
             if (mapContainer) {
                 mapContainer.addEventListener('click', function() {
@@ -908,3 +900,4 @@
 </body>
 
 </html>
+
