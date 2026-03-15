@@ -65,9 +65,7 @@ const siteContent = {
     content: `新潟の地域情報サイト「にいがた速報」様にて、珈琲オルテガのオープン情報を記事にしていただきました。ぜひご覧ください。
 
 ▼掲載記事はこちら
-<a href="https://gata21.jp/archives/96842261.html" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">
-https://gata21.jp/archives/96842261.html
-</a>`,
+<a href="https://gata21.jp/archives/96842261.html" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">https://gata21.jp/archives/96842261.html</a>`,
     image: "" 
 },
             {
