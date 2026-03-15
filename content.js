@@ -172,7 +172,7 @@ image: ""
         ],
         businessHours: "11:00 - 18:00（l.o 17:30）",
         schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'> ※臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします</span>",
-        address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598",
+        address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598（衣屋さん隣）",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
         email: "ortcaffe.s@gmail.com",
         mapEmbed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3147.5714775316455!2d139.0341446!3d37.91707780000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5ff4c93e1ca6fa35%3A0x20f8d823c9e93578!2z44Kq44Or44OG44Ks!5e0!3m2!1sja!2sjp!4v1773545228845!5m2!1sja!2sjp"
@@ -185,59 +185,3 @@ image: ""
     }
 
 };
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
