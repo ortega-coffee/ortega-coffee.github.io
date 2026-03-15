@@ -59,6 +59,13 @@ const siteContent = {
         
         articles: [
             {
+    date: "2026.03.15",
+    tag: "Media",
+    title: "「にいがた速報」様にてご紹介いただきました",
+    content: `新潟の地域情報サイト「にいがた速報」様にて、珈琲オルテガのオープン情報を記事にしていただきました。ぜひご覧ください。\n\n▼掲載記事はこちら\nhttps://gata21.jp/archives/96842261.html`,
+    image: "" 
+},
+            {
                 date: "2026.03.01",
                 tag: "Notice",
                 title: "ご来店時のお願いとご案内",
@@ -90,13 +97,6 @@ const siteContent = {
 
 皆様のお越しを心よりお待ちしております。`,
 image: "" 
-            },
-            {
-                date: "2026.02.28",
-                tag: "Info",
-                title: "ホームページ開設",
-                content: `プレオープンに合わせて作成いたしました。メニューなどは準備中です。暫しお待ちください。`,
-                image: "" 
             },
         ]
     },
