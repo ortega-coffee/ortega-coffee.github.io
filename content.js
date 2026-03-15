@@ -66,7 +66,7 @@ const siteContent = {
 
 ▼掲載記事はこちら
 <a href="https://gata21.jp/archives/96842261.html" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">
-にいがた速報の記事を読む（外部サイトへ）
+https://gata21.jp/archives/96842261.html
 </a>`,
     image: "" 
 },
