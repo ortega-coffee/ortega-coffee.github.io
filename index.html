@@ -324,6 +324,45 @@
         }
 
         body.menu-open #navbar #hamburger-btn { opacity: 0; pointer-events: none; }
+        /* --- index.html の <style> 内に追加 --- */
+.hours-table {
+    margin-left: 0;          /* 表全体を左に寄せる */
+    border-collapse: collapse;
+    line-height: 1.8;        /* 行間を少し広げて読みやすく */
+}
+
+.hours-table td {
+    padding: 0;
+    text-align: left;        /* すべて左揃え */
+    vertical-align: middle;
+}
+
+/* 1列目：曜日の幅を固定して、スラッシュの位置を揃える */
+.hours-table .day {
+    min-width: 5.5em;        /* 「火・水・木」が入る幅を確保 */
+    white-space: nowrap;
+}
+
+/* 2列目：スラッシュの前後余白 */
+.hours-table .sep {
+    padding-right: 15px;
+    color: #78716c;          /* 少し色を薄くするとおしゃれ */
+}
+
+/* 3列目：時間の数字の幅を固定 */
+.hours-table .time {
+    font-variant-numeric: tabular-nums; /* 数字の幅を揃える */
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+/* 補足テキスト（L.o.） */
+.lo-text {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #d6d3d1;
+    text-align: left;        /* 左揃え */
+}
     </style>
 </head>
     <body class="selection:bg-stone-100 selection:text-stone-900">
