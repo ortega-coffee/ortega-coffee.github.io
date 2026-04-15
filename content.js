@@ -111,7 +111,7 @@ const siteContent = {
         items: [
             {
                 category: "", 
-                name: "準備中です。解禁まで、今しばらくお待ちください。",
+                name: "準備中です。解禁まで、今しばらくお待ちください。Instagramで掲載している場合もあります。",
                 subName: "", 
                 price: "",
                 image: "" 
