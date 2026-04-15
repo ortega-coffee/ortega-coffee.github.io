@@ -58,6 +58,16 @@ const siteContent = {
         viewMoreText: "View More on Instagram",
         
         articles: [
+             {
+    date: "2026.04.11",
+    tag: "Media",
+    title: "「Things」様にてご紹介いただきました",
+    content: `新潟のウェブマガジン「Things」様にて、珈琲オルテガの店舗情報を記事にしていただきました。ぜひご覧ください。
+
+▼掲載記事はこちら
+<a href="https://gata21.jp/archives/96842261.html" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">https://things-niigata.jp/other/coffee-ortega-2/</a>`,
+    image: "" 
+},
             {
     date: "2026.03.15",
     tag: "Media",
@@ -81,25 +91,6 @@ const siteContent = {
 
 皆さまと心地よい時間を共有できるよう、ご理解とご協力をお願い申し上げます。`,
                 image: "" 
-            },
-            {
-                date: "2026.03.01",
-                tag: "Open",
-                title: "プレオープンのご案内",
-                content: `日程 | 2026.3.10(火) - 3.14(土) <br>時間 | 全日 11:00-18:00（l.o 17:30）<br>場所 | 新潟市中央区学校町通2-598
-
-〈お品書き〉
-・ネルドリップ珈琲
-・冷たい珈琲
-・牛乳珈琲（温or冷）
-・アレンジ珈琲
-・自家製ジンジャーエール
-・甘味数種
-・お飲物お持ち帰り
-・他
-
-皆様のお越しを心よりお待ちしております。`,
-image: "" 
             },
         ]
     },
