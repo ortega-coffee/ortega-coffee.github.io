@@ -65,7 +65,7 @@ const siteContent = {
     content: `新潟のウェブマガジン「Things」様にて、珈琲オルテガの店舗情報を記事にしていただきました。ぜひご覧ください。
 
 ▼掲載記事はこちら
-<a href="https://gata21.jp/archives/96842261.html" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">https://things-niigata.jp/other/coffee-ortega-2/</a>`,
+<a href="https://things-niigata.jp/other/coffee-ortega-2/" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">https://things-niigata.jp/other/coffee-ortega-2/</a>`,
     image: "" 
             
 },
