@@ -107,11 +107,11 @@ const siteContent = {
     // --- メニュー (STAND MENU) ---
     menu: {
         sectionLabel: "MENU",
-        sectionTitle: "COMING SOON", // 普段であればListで。今はCOMING SOONに。
+        sectionTitle: "COMING SOON", // 普段であればListの文字で。今はCOMING SOONに。
         items: [
             {
                 category: "", 
-                name: "準備中です。解禁まで、今しばらくお待ちください。Instagramで掲載している場合もあります。",
+                name: "準備中です。解禁まで、今しばらくお待ちください。※Instagramで掲載している場合もあります。",
                 subName: "", 
                 price: "",
                 image: "" 
@@ -164,8 +164,7 @@ const siteContent = {
             "images/location/shop3.webp",
             "images/location/shop5.webp",
         ],
-        businessHours: "12:00 - 19:00（l.o 18:30）",
-        businessHours: "12:00 - 19:00（l.o 18:30）",
+        businessHours: "平日（火-木）/ 12:00-19:00金・土/ 13:00-21:00日/ 12:00-18:00※各日、閉店30分前l.o12:00 - 19:00（各日閉店30分前L.o.）",
         schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'> ※臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします</span>",
         address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598（衣屋さん隣）",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
