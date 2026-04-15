@@ -164,7 +164,7 @@ const siteContent = {
             "images/location/shop3.webp",
             "images/location/shop5.webp",
         ],
-        businessHours: "火・水・木/ 12:00-19:00<br>金・土  　/ 13:00-21:00<br>日    　　/ 12:00-18:00<br>（各日閉店30分前L.o.）",
+        businessHours: "火・水・木/ 12:00-19:00<br>金・土  　/ 13:00-21:00<br>日    　　　　/ 12:00-18:00<br>（各日閉店30分前L.o.）",
         schedule: "<span class='ib'>定休日：月曜+不定休</span><br><span class='ib'> ※臨時休業の場合は、</span><span class='ib'>SNS等で告知いたします</span>",
         address: "〒951-8126 新潟県新潟市中央区<br>学校町通2-598（衣屋さん隣）",
         note: "※店頭販売などの詳細はSNSをご覧ください。",
