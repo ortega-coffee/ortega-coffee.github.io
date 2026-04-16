@@ -1,31 +1,29 @@
 <!DOCTYPE html>
 <html lang="ja">
 <head>
-    
+    <!-- Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-1KS39WGLMK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-1KS39WGLMK');
-</script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-1KS39WGLMK');
+    </script>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="preload" as="image" href="images/top/top.webp" fetchpriority="high">
-    
-<meta name="google-site-verification" content="s1ejLc_qXq98s1f00v_g58hCmCCOla7e1pErAheB2lI" />
+    <meta name="google-site-verification" content="s1ejLc_qXq98s1f00v_g58hCmCCOla7e1pErAheB2lI" />
     
     <title>珈琲オルテガ | 新潟市中央区の手廻し焙煎・ネルドリップ深煎り珈琲店</title>
     <meta name="description" content="新潟県新潟市中央区にある自家焙煎店「珈琲オルテガ」の公式サイト。手廻し焙煎とネルドリップにこだわり、深煎りを中心とした「余韻と色気」のあるコーヒーを提供します。店舗での喫茶ほか、珈琲豆の店頭販売やオンラインショップ（BASE）での通販も行っています。">
-    <meta name="keywords" content="珈琲オルテガ,新潟 珈琲,新潟 カフェ,コーヒー,休憩,手廻し焙煎,ネルドリップ,深煎りコーヒー,自家焙煎,コーヒー豆 通販,新潟 喫茶店,通販,ギフト,お取り寄せ,中央区，学校町,中央区学校町">
+    <meta name="keywords" content="珈琲オルテガ,新潟 珈琲,新潟 カフェ,コーヒー,休憩,手廻し焙煎,ネルドリップ,深煎りコーヒー,自家焙煎,コーヒー豆 通販,新潟 喫茶店,通販,ギフト,お取り寄せ,中央区,学校町">
     
     <link rel="icon" href="favicon.ico" sizes="16x16 32x32">
     <link rel="icon" href="apple-touch-icon.png" type="image/png" sizes="180x180">
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
 
+    <!-- OGP Settings -->
     <meta property="og:type" content="website">
     <meta property="og:title" content="珈琲オルテガ | COFFEE ORTEGA">
     <meta property="og:description" content="手廻し焙煎、ネルドリップ. 深煎りを中心とした余韻と、色気のある珈琲を。">
@@ -34,58 +32,42 @@
     <meta name="twitter:card" content="summary_large_image">
 
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@300;500;700&family=Noto+Sans+JP:wght@300;400&display=swap" rel="stylesheet">
-    
     <script src="https://unpkg.com/lucide@latest"></script>
 
+    <!-- Structured Data -->
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "CafeOrCoffeeShop",
-      "name": "珈琲オルテガ",
-      "image": "images/top/top.webp",
-      "url": "https://ortega-coffee.github.io/",
-      "address": {
-        "@type": "PostalAddress",
-        "streetAddress": "学校町通2-598", 
-        "addressLocality": "新潟市中央区",
-        "addressRegion": "新潟県",
-        "postalCode": "951-8126",
-        "addressCountry": "JP"
-      }
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "珈琲オルテガ",
+        "image": "images/top/top.webp",
+        "url": "https://ortega-coffee.github.io/",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "学校町通2-598", 
+            "addressLocality": "新潟市中央区",
+            "addressRegion": "新潟県",
+            "postalCode": "951-8126",
+            "addressCountry": "JP"
+        }
     }
     </script>
 
     <style>
-        :root { 
-            --mobile-br: block;
-        }
-        img {
-    pointer-events: none;
-    -webkit-touch-callout: none; 
-}
-        
-        @media (min-width: 768px) {
-            :root { --mobile-br: none; }
-        }
-
+        /* --- Base Layout --- */
+        :root { --mobile-br: block; }
+        @media (min-width: 768px) { :root { --mobile-br: none; } }
         .m-br { display: var(--mobile-br); }
 
         html { 
             background-color: #0c0a09;
             scroll-padding-top: 80px;
+            scrollbar-gutter: stable; 
         }
-
-        html.smooth-scroll {
-            scroll-behavior: smooth;
-        }
-
-        body.lock-scroll {
-            overflow: hidden; 
-        }
+        html.smooth-scroll { scroll-behavior: smooth; }
 
         body { 
             background-color: #0c0a09; 
@@ -96,6 +78,13 @@
             width: 100%;
         }
 
+        body.lock-scroll { overflow: hidden; }
+
+        img {
+            pointer-events: none;
+            -webkit-touch-callout: none; 
+        }
+
         .ib { display: inline-block; }
 
         .font-serif { 
@@ -104,13 +93,11 @@
             letter-spacing: 0.1em;
         }
 
+        /* --- Background Effects --- */
         #texture-layer {
             position: fixed; inset: 0; width: 100%; height: 100%;
-            z-index: 500;
-            pointer-events: none;
-            opacity: 0.15;
-            mix-blend-mode: overlay;
-            background-repeat: repeat;
+            z-index: 500; pointer-events: none; opacity: 0.15;
+            mix-blend-mode: overlay; background-repeat: repeat;
             background-size: 500px auto; 
         }
 
@@ -121,12 +108,21 @@
         }
 
         body::after {
-            content: "";
-            position: fixed; inset: 0;
+            content: ""; position: fixed; inset: 0;
             box-shadow: inset 0 0 15vw rgba(0,0,0,0.8);
             pointer-events: none; z-index: 700;
         }
 
+        @keyframes noise-anim {
+            0% { transform: translate(0,0); } 10% { transform: translate(-1%,-1%); }
+            20% { transform: translate(1%,1%); } 30% { transform: translate(-2%,0); }
+            40% { transform: translate(1%,-1%); } 50% { transform: translate(-1%,1%); }
+            60% { transform: translate(2%,1%); } 70% { transform: translate(-1%,-1%); }
+            80% { transform: translate(1%,2%); } 90% { transform: translate(-2%,-1%); }
+            100% { transform: translate(0,0); }
+        }
+
+        /* --- Opening Animation --- */
         #opening-overlay {
             position: fixed; inset: 0; background: #0c0a09; z-index: 9999;
             display: flex; align-items: center; justify-content: center;
@@ -135,9 +131,7 @@
 
         .opening-logo {
             font-family: 'Noto Serif JP', serif; 
-            letter-spacing: 0.8em; 
-            color: #fffaf0;
-            opacity: 0;
+            letter-spacing: 0.8em; color: #fffaf0; opacity: 0;
             filter: url(#sugar-melt-filter);
             animation: logoFade 2.5s ease-in-out forwards;
         }
@@ -162,12 +156,10 @@
 
         .overlay-hidden { opacity: 0; visibility: hidden; pointer-events: none; }
 
+        /* --- Scroll Animation --- */
         section {
-            position: relative;
-            background-color: #0c0a09;
-            margin-top: -1px;
-            padding-top: 1px;
-            z-index: 10;
+            position: relative; background-color: #0c0a09;
+            margin-top: -1px; padding-top: 1px; z-index: 10;
         }
 
         .reveal {
@@ -177,80 +169,44 @@
         }
         .reveal.active { opacity: 1; transform: translateY(0); }
 
-        @keyframes noise-anim {
-            0% { transform: translate(0,0); }
-            10% { transform: translate(-1%,-1%); }
-            20% { transform: translate(1%,1%); }
-            30% { transform: translate(-2%,0); }
-            40% { transform: translate(1%,-1%); }
-            50% { transform: translate(-1%,1%); }
-            60% { transform: translate(2%,1%); }
-            70% { transform: translate(-1%,-1%); }
-            80% { transform: translate(1%,2%); }
-            90% { transform: translate(-2%,-1%); }
-            100% { transform: translate(0,0); }
-        }
-
-        .nav-scrolled {
-    background-color: rgba(12, 10, 9, 0.95); 
-    backdrop-filter: blur(12px);
-    padding-top: 0.7rem !important; 
-    padding-bottom: 0.7rem !important;
-    border-bottom: 1px solid rgba(255,255,255,0.05);
+        /* --- Navbar --- */
+        #navbar {
+    transition: background-color 0.5s, backdrop-filter 0.5s, padding-top 0.5s, padding-bottom 0.5s, border-color 0.5s;
 }
+        .nav-scrolled {
+            background-color: rgba(12, 10, 9, 0.95); 
+            backdrop-filter: blur(12px);
+            padding-top: 0.7rem !important; padding-bottom: 0.7rem !important;
+            border-bottom: 1px solid rgba(255,255,255,0.05);
+        }
 
-        #pc-nav-container a {
-            position: relative;
-            transition: color 0.4s ease;
-        }
-        #pc-nav-container a.nav-active {
-            color: #ffffff !important;
-        }
+        #pc-nav-container a { position: relative; transition: color 0.4s ease; }
+        #pc-nav-container a.nav-active { color: #ffffff !important; }
         #pc-nav-container a::after {
-            content: "";
-            position: absolute;
-            bottom: -6px;
-            left: 0;
-            width: 100%;
-            height: 1px;
-            background-color: #ffffff;
-            transform: scaleX(0);
-            transform-origin: right;
+            content: ""; position: absolute; bottom: -6px; left: 0;
+            width: 100%; height: 1px; background-color: #ffffff;
+            transform: scaleX(0); transform-origin: right;
             transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
         }
-        #pc-nav-container a.nav-active::after {
-            transform: scaleX(1);
-            transform-origin: left;
-        }
+        #pc-nav-container a.nav-active::after { transform: scaleX(1); transform-origin: left; }
 
         #mobile-menu-overlay {
             transition: opacity 0.4s ease, visibility 0.4s;
-            opacity: 0; visibility: hidden;
-            backdrop-filter: blur(15px);
+            opacity: 0; visibility: hidden; backdrop-filter: blur(15px);
         }
         #mobile-menu-overlay.active { opacity: 1; visibility: visible; }
         .mobile-link { opacity: 0; transform: translateY(16px); transition: opacity 0.5s, transform 0.5s; }
         #mobile-menu-overlay.active .mobile-link { opacity: 1; transform: translateY(0); }
+        body.menu-open #navbar #hamburger-btn { opacity: 0; pointer-events: none; }
 
-        #news-modal { 
-            transition: opacity 0.3s ease, visibility 0.3s; 
-            opacity: 0; 
-            visibility: hidden; 
-        }
-        #news-modal.active { opacity: 1; visibility: visible; }
-        #news-modal-content {
-            will-change: transform, opacity;
-            transform: translateY(15px); opacity: 0;
-            transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.4s;
-        }
-        #news-modal.active #news-modal-content { transform: translateY(0); opacity: 1; }
-
+        /* --- Hero Section --- */
         @keyframes drift {
             0% { transform: scale(1.05) translate(0,0); }
             100% { transform: scale(1.15) translate(-1%, -0.5%); }
         }
         #hero-bg { animation: drift 20s ease-in-out infinite alternate; }
 
+        /* --- Image Hover Effects --- */
         #concept-image, .news-item img {
             filter: sepia(5%) contrast(1.05) brightness(0.9);
             transition: filter 1s ease, transform 2s ease;
@@ -262,135 +218,99 @@
             .group:hover img { filter: sepia(0%) contrast(1.0) brightness(1.0); }
         }
 
+        /* --- Modal --- */
+        #news-modal { 
+            transition: opacity 0.5s cubic-bezier(0.22, 1, 0.36, 1), visibility 0.5s; 
+            opacity: 0; visibility: hidden; backdrop-filter: blur(0px); 
+        }
+        #news-modal.active { 
+            opacity: 1; visibility: visible; backdrop-filter: blur(8px); 
+            transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1), backdrop-filter 0.6s ease;
+        }
+        #news-modal-content {
+            will-change: transform, opacity;
+            transform: translateY(30px) scale(0.98); opacity: 0;
+            transition: transform 0.7s cubic-bezier(0.16, 1, 0.3, 1), opacity 0.6s ease-out;
+            backface-visibility: hidden; 
+        }
+        #news-modal.active #news-modal-content { 
+            transform: translateY(0) scale(1); opacity: 1; 
+        }
+
+        /* --- Access Map & Slideshow --- */
         .slide-img {
             position: absolute; inset: 0; opacity: 0;
             transition: opacity 1.5s ease-in-out, filter 1.0s ease;
             object-fit: cover; width: 100%; height: 100%;
-            filter: grayscale(100%) brightness(0.7);
-            z-index: 1;
+            filter: grayscale(100%) brightness(0.7); z-index: 1;
         }
-        
-        .slide-img.active { 
-            opacity: 0.8; 
-            z-index: 2; 
-            filter: grayscale(100%) brightness(0.7); 
-        }
-
+        .slide-img.active { opacity: 0.8; z-index: 2; filter: grayscale(100%) brightness(0.7); }
         #access-slideshow:hover .slide-img.active,
         #access-slideshow.is-colored .slide-img.active {
-            filter: grayscale(0%) brightness(1.0);
-            opacity: 1;
+            filter: grayscale(0%) brightness(1.0); opacity: 1;
         }
 
-        /* --- Google Map Smooth Hover Design --- */
-        #map-container {
-            position: relative;
-            overflow: hidden;
-            background-color: #0c0a09;
-        }
-
+        #map-container { position: relative; overflow: hidden; background-color: #0c0a09; }
         #access-map {
             filter: grayscale(100%) invert(92%) contrast(83%) brightness(95%);
             transition: filter 1.2s cubic-bezier(0.4, 0, 0.2, 1);
-            position: relative;
-            z-index: 800;
-            pointer-events: none;
+            position: relative; z-index: 800; pointer-events: none;
         }
-
         #map-container:hover #access-map,
         #map-container.is-active #access-map {
-            filter: grayscale(30%) invert(0%) contrast(95%) brightness(85%);
-            pointer-events: auto;
+            filter: grayscale(30%) invert(0%) contrast(95%) brightness(85%); pointer-events: auto;
         }
-
-#map-overlay::after {
-    content: "Tap to interact";
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    background: rgba(0,0,0,0.6);
-    padding: 8px 16px;
-    font-size: 12px;
-    pointer-events: none;
-    opacity: 0;
-    transition: opacity 0.3s;
-}
-#map-container:hover #map-overlay::after {
-    opacity: 1;
-}
-        #map-container.is-active #map-overlay {
-            display: none;
+        #map-overlay::after {
+            content: "Tap to interact"; position: absolute;
+            top: 50%; left: 50%; transform: translate(-50%, -50%);
+            color: white; background: rgba(0,0,0,0.6); padding: 8px 16px;
+            font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.3s;
         }
+        #map-container:hover #map-overlay::after { opacity: 1; }
+        #map-container.is-active #map-overlay { display: none; }
 
-        body.menu-open #navbar #hamburger-btn { opacity: 0; pointer-events: none; }
-        /* --- index.html の <style> 内に追加 --- */
-.hours-table {
-    margin-left: 0;          /* 表全体を左に寄せる */
-    border-collapse: collapse;
-    line-height: 1.8;        /* 行間を少し広げて読みやすく */
-}
-
-.hours-table td {
-    padding: 0;
-    text-align: left;        /* すべて左揃え */
-    vertical-align: middle;
-}
-
-/* 1列目：曜日の幅を固定して、スラッシュの位置を揃える */
-.hours-table .day {
-    min-width: 5.5em;        /* 「火・水・木」が入る幅を確保 */
-    white-space: nowrap;
-}
-
-/* 2列目：スラッシュの前後余白 */
-.hours-table .sep {
-    padding-right: 15px;
-    color: #78716c;          /* 少し色を薄くするとおしゃれ */
-}
-
-/* 3列目：時間の数字の幅を固定 */
-.hours-table .time {
-    font-variant-numeric: tabular-nums; /* 数字の幅を揃える */
-    letter-spacing: 0.05em;
-    white-space: nowrap;
-}
-
-/* 補足テキスト（L.o.） */
-.lo-text {
-    margin-top: 8px;
-    font-size: 11px;
-    color: #d6d3d1;
-    text-align: left;        /* 左揃え */
-}
+        /* --- Hours Table --- */
+        .hours-table {
+            margin-left: 0; border-collapse: collapse; line-height: 1.8; 
+        }
+        .hours-table td {
+            padding: 0; text-align: left; vertical-align: middle;
+        }
+        .hours-table .day { min-width: 5.5em; white-space: nowrap; }
+        .hours-table .sep { padding-right: 15px; color: #78716c; }
+        .hours-table .time { font-variant-numeric: tabular-nums; letter-spacing: 0.05em; white-space: nowrap; }
+        .lo-text { margin-top: 8px; font-size: 11px; color: #d6d3d1; text-align: left; }
     </style>
 </head>
-    <body class="selection:bg-stone-100 selection:text-stone-900">
+<body class="selection:bg-stone-100 selection:text-stone-900">
 
+    <!-- Opening Animation Filter -->
     <svg style="position: fixed; width: 0; height: 0; pointer-events: none;">
-      <filter id="sugar-melt-filter">
-        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" result="noise" />
-        <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" result="distort">
-          <animate attributeName="scale" values="0;0;45" dur="2.5s" repeatCount="1" />
-        </feDisplacementMap>
-        <feGaussianBlur in="distort" stdDeviation="0" result="blur">
-          <animate attributeName="stdDeviation" values="0;0;12" dur="2.5s" repeatCount="1" />
-        </feGaussianBlur>
-        <feComponentTransfer in="blur" result="final">
-          <feFuncA type="linear" slope="1">
-            <animate attributeName="slope" values="1;1;0" dur="2.5s" repeatCount="1" />
-          </feFuncA>
-        </feComponentTransfer>
-      </filter>
+        <filter id="sugar-melt-filter">
+            <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="3" result="noise" />
+            <feDisplacementMap in="SourceGraphic" in2="noise" scale="0" result="distort">
+                <animate attributeName="scale" values="0;0;45" dur="2.5s" repeatCount="1" />
+            </feDisplacementMap>
+            <feGaussianBlur in="distort" stdDeviation="0" result="blur">
+                <animate attributeName="stdDeviation" values="0;0;12" dur="2.5s" repeatCount="1" />
+            </feGaussianBlur>
+            <feComponentTransfer in="blur" result="final">
+                <feFuncA type="linear" slope="1">
+                    <animate attributeName="slope" values="1;1;0" dur="2.5s" repeatCount="1" />
+                </feFuncA>
+            </feComponentTransfer>
+        </filter>
     </svg>
 
     <div id="texture-layer"></div>
     <div id="noise-layer"></div>
 
+    <!-- Opening Screen -->
     <div id="opening-overlay">
         <div class="opening-logo text-lg uppercase tracking-[1em]" id="opening-text"></div>
     </div>
 
+    <!-- Navigation -->
     <nav id="navbar" class="fixed top-0 left-0 w-full z-[1000] transition-all duration-500 py-6">
         <div class="container mx-auto px-6 md:px-8 flex justify-between items-center">
             <div class="flex items-center gap-3 cursor-pointer z-[1010]" onclick="window.scrollTo({top: 0, behavior: 'smooth'})">
@@ -404,6 +324,7 @@
         </div>
     </nav>
 
+    <!-- Mobile Menu -->
     <div id="mobile-menu-overlay" class="fixed inset-0 bg-[#0c0a09]/95 z-[2000] flex flex-col justify-center items-center">
         <button onclick="toggleMenu()" type="button" class="absolute top-7 right-6 text-white p-2 focus:outline-none" aria-label="メニューを閉じる">
             <i data-lucide="x" class="w-8 h-8"></i>
@@ -411,6 +332,7 @@
         <div id="mobile-nav-container" class="flex flex-col gap-8 text-center"></div>
     </div>
 
+    <!-- Hero Section -->
     <header class="relative h-screen flex items-center justify-center overflow-hidden bg-stone-950">
         <div class="absolute inset-0">
             <img id="hero-bg" src="" alt="珈琲オルテガ メインビジュアル" class="w-full h-full object-cover contrast-[1.05] brightness-[0.9]" fetchpriority="high">
@@ -423,6 +345,7 @@
         </div>
     </header>
 
+    <!-- News Section -->
     <section id="news" class="py-20 px-8 bg-stone-950 border-b border-white/5 relative">
         <div class="container mx-auto max-w-4xl">
             <div class="text-center mb-12 reveal">
@@ -436,6 +359,7 @@
         </div>
     </section>
 
+    <!-- Concept Section -->
     <section id="concept" class="py-24 px-8 bg-stone-950">
         <div class="container mx-auto max-w-5xl">
             <div class="grid md:grid-cols-2 gap-16 items-center">
@@ -455,6 +379,7 @@
         </div>
     </section>
 
+    <!-- Menu Section -->
     <section id="menu" class="py-24 bg-stone-950">
         <div class="container mx-auto px-8 max-w-4xl">
             <div class="text-center mb-16 reveal">
@@ -465,13 +390,14 @@
         </div>
     </section>
 
+    <!-- Store Section -->
     <section id="onlinestore" class="py-24 bg-stone-950 border-t border-white/5">
         <div class="container mx-auto px-8 max-w-6xl">
-<div class="text-center mb-16 reveal">
-    <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
-    <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
-    <p id="store-note" class="text-[10px] text-stone-400 tracking-widest mt-4"></p>
-</div>
+            <div class="text-center mb-16 reveal">
+                <p id="store-label" class="text-[11px] text-stone-300 tracking-[0.6em] uppercase mb-4 font-bold"></p>
+                <h2 id="store-title" class="text-xl font-serif text-white tracking-[0.5em]"></h2>
+                <p id="store-note" class="text-[10px] text-stone-400 tracking-widest mt-4"></p>
+            </div>
             <div id="store-items-container" class="grid grid-cols-1 md:grid-cols-3 gap-x-12 gap-y-16"></div>
             <div class="mt-20 text-center reveal">
                 <a id="store-btn-link" href="" target="_blank" rel="noopener noreferrer" class="inline-block border border-stone-800 px-16 py-4 text-[11px] tracking-[0.4em] uppercase text-stone-300 hover:border-white hover:text-white transition-all"></a>
@@ -479,6 +405,7 @@
         </div>
     </section>
 
+    <!-- Access Section -->
     <section id="access" class="py-16 bg-stone-950 border-t border-white/5 relative">
         <div class="container mx-auto px-6 max-w-6xl">
             <div class="text-center mb-10 reveal">
@@ -522,18 +449,21 @@
         </div>
     </section>
 
+    <!-- Footer -->
     <footer id="footer" class="bg-stone-950 border-t border-white/5">
-    <div class="container mx-auto px-8 text-center pt-12 pb-8">
-        <p id="footer-privacy" class="text-[10px] text-stone-600 tracking-wider mb-8 leading-relaxed max-w-2xl mx-auto"></p>
-        
-        <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
-    </div>
-</footer>
+        <div class="container mx-auto px-8 text-center pt-12 pb-8">
+            <p id="footer-privacy" class="text-[10px] text-stone-600 tracking-wider mb-8 leading-relaxed max-w-2xl mx-auto"></p>
+            <p id="footer-copy" class="font-serif text-[11px] tracking-[0.2em] text-stone-500 uppercase py-2 leading-relaxed"></p>
+        </div>
+    </footer>
 
+    <!-- News Modal -->
     <div id="news-modal" class="fixed inset-0 z-[3000] flex items-center justify-center p-4">
         <div class="absolute inset-0 bg-black/85" onclick="closeNewsModal()"></div>
         <div id="news-modal-content" class="relative bg-stone-900 border border-white/10 w-full max-w-lg max-h-[85vh] overflow-y-auto shadow-2xl p-8 md:p-10">
-            <button onclick="closeNewsModal()" type="button" class="absolute top-4 right-4 text-stone-500 hover:text-white transition-colors p-2"><i data-lucide="x" class="w-6 h-6"></i></button>
+            <button onclick="closeNewsModal()" type="button" class="absolute top-4 right-4 text-stone-500 hover:text-white transition-colors p-2">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
             <div class="space-y-6">
                 <div class="flex items-center gap-4 mb-2">
                     <span id="modal-date" class="text-[11px] font-serif text-stone-500"></span>
@@ -552,55 +482,23 @@
         </div>
     </div>
 
+    <!-- Data Injection -->
     <script src="content.js"></script>
 
+    <!-- Main Logic -->
     <script>
         const bodyScrollLock = {
-            scrollPosition: 0,
-            paddingRight: 0,
-
-            lock() {
-                this.scrollPosition = window.scrollY || window.pageYOffset;
-                const scrollBarWidth = window.innerWidth - document.documentElement.clientWidth;
-                this.paddingRight = scrollBarWidth;
-                
-                document.documentElement.classList.remove('smooth-scroll');
-                
-                const body = document.body;
-                const navbar = document.getElementById('navbar');
-
-                if (scrollBarWidth > 0) {
-                    body.style.paddingRight = `${scrollBarWidth}px`;
-                    if (navbar) navbar.style.paddingRight = `${scrollBarWidth}px`;
-                }
-
-                body.style.position = 'fixed';
-                body.style.top = `-${this.scrollPosition}px`;
-                body.style.width = '100%';
-                body.classList.add('lock-scroll');
-            },
-
-            unlock() {
-                const body = document.body;
-                const navbar = document.getElementById('navbar');
-
-                body.classList.remove('lock-scroll');
-                body.style.removeProperty('position');
-                body.style.removeProperty('top');
-                body.style.removeProperty('width');
-
-                if (this.paddingRight > 0) {
-                    body.style.removeProperty('padding-right');
-                    if (navbar) navbar.style.removeProperty('padding-right');
-                }
-                
-                window.scrollTo(0, this.scrollPosition);
-
-                setTimeout(() => {
-                    document.documentElement.classList.add('smooth-scroll');
-                }, 50);
-            }
-        };
+    lock() {
+        document.documentElement.classList.remove('smooth-scroll');
+        document.body.classList.add('lock-scroll');
+    },
+    unlock() {
+        document.body.classList.remove('lock-scroll');
+        setTimeout(() => {
+            document.documentElement.classList.add('smooth-scroll');
+        }, 500); 
+    }
+};
 
         function checkNavScroll() {
             const nav = document.getElementById('navbar');
@@ -761,31 +659,42 @@
             }, 4000);
         }
 
-        const newsModal = document.getElementById('news-modal');
+        function openNewsModal(item) {
+            document.getElementById('modal-date').innerHTML = item.getAttribute('data-date');
+            document.getElementById('modal-tag').innerHTML = item.getAttribute('data-tag');
+            document.getElementById('modal-title').innerHTML = item.getAttribute('data-title');
+            document.getElementById('modal-body').innerHTML = item.querySelector('.hidden-content').innerHTML;
+            
+            const src = item.getAttribute('data-image');
+            const container = document.getElementById('modal-image-container');
+            if (src) { 
+                document.getElementById('modal-image').src = src; 
+                container.classList.remove('hidden'); 
+            } else { 
+                container.classList.add('hidden'); 
+            }
+            
+            bodyScrollLock.lock();
+            const modal = document.getElementById('news-modal');
+            modal.classList.add('active');
+        }
+
+        function closeNewsModal() {
+            const modal = document.getElementById('news-modal');
+            modal.classList.remove('active');
+            
+            setTimeout(() => { 
+                bodyScrollLock.unlock();
+                document.getElementById('modal-image').src = '';
+            }, 500); 
+        }
 
         function attachNewsEvents() {
             document.querySelectorAll('.news-item').forEach(function(item) {
                 item.addEventListener('click', function() {
-                    document.getElementById('modal-date').innerHTML = item.getAttribute('data-date');
-                    document.getElementById('modal-tag').innerHTML = item.getAttribute('data-tag');
-                    document.getElementById('modal-title').innerHTML = item.getAttribute('data-title');
-                    document.getElementById('modal-body').innerHTML = item.querySelector('.hidden-content').innerHTML;
-                    const src = item.getAttribute('data-image');
-                    const container = document.getElementById('modal-image-container');
-                    if (src) { document.getElementById('modal-image').src = src; container.classList.remove('hidden'); }
-                    else { container.classList.add('hidden'); }
-                    newsModal.classList.add('active');
-                    bodyScrollLock.lock();
+                    openNewsModal(item);
                 });
             });
-        }
-
-        function closeNewsModal() {
-            newsModal.classList.remove('active');
-            bodyScrollLock.unlock();
-            setTimeout(function() { 
-                document.getElementById('modal-image').src = '';
-            }, 300);
         }
 
         const hamburgerBtn = document.getElementById('hamburger-btn');
@@ -830,6 +739,7 @@
 
         window.addEventListener('keydown', function(e) {
             if (e.key === 'Escape') {
+                const newsModal = document.getElementById('news-modal');
                 if (newsModal.classList.contains('active')) closeNewsModal();
                 if (isMenuOpen) toggleMenu();
             }
@@ -937,6 +847,4 @@
         window.addEventListener('scroll', checkNavScroll, { passive: true });
     </script>
 </body>
-
 </html>
-
