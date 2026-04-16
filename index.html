@@ -100,7 +100,11 @@
             mix-blend-mode: overlay; background-repeat: repeat;
             background-size: 500px auto; 
         }
-
+　　　　 #texture-layer, #noise-layer {
+    will-change: transform;
+    transform: translate3d(0, 0, 0);
+    backface-visibility: hidden;
+}
         #noise-layer {
             position: fixed; inset: -20%; width: 140%; height: 140%;
             opacity: 0.04; pointer-events: none; z-index: 600;
