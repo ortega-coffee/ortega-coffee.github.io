@@ -274,16 +274,60 @@
         #map-container.is-active #map-overlay { display: none; }
 
         /* --- Hours Table --- */
-        .hours-table {
-            margin-left: 0; border-collapse: collapse; line-height: 1.8; 
-        }
-        .hours-table td {
-            padding: 0; text-align: left; vertical-align: middle;
-        }
-        .hours-table .day { min-width: 5.5em; white-space: nowrap; }
-        .hours-table .sep { padding-right: 15px; color: #78716c; }
-        .hours-table .time { font-variant-numeric: tabular-nums; letter-spacing: 0.05em; white-space: nowrap; }
-        .lo-text { margin-top: 8px; font-size: 11px; color: #d6d3d1; text-align: left; }
+        /* --- 営業時間のテーブル修正 --- */
+.hours-table {
+    /* スマホでは中央、PC（md以上）では左寄せ */
+    margin: 0 auto; 
+    border-collapse: collapse;
+    line-height: 1.8;
+}
+
+/* PCサイズ（768px以上）の時は左寄せに戻す */
+@media (min-width: 768px) {
+    .hours-table {
+        margin-left: 0;
+    }
+}
+
+.hours-table td {
+    padding: 0;
+    text-align: left; /* 文字自体は左揃えの方が見やすいです */
+    vertical-align: middle;
+}
+
+/* 1列目：曜日の幅 */
+.hours-table .day {
+    min-width: 4.5em;
+    white-space: nowrap;
+}
+
+/* 2列目：スラッシュの余白 */
+.hours-table .sep {
+    padding-right: 15px;
+    color: #78716c;
+}
+
+/* 3列目：時間の数字 */
+.hours-table .time {
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.05em;
+    white-space: nowrap;
+}
+
+/* 補足テキスト（L.O.） */
+.lo-text {
+    margin-top: 8px;
+    font-size: 11px;
+    color: #d6d3d1;
+    /* スマホでは中央、PCでは左寄せ */
+    text-align: center; 
+}
+
+@media (min-width: 768px) {
+    .lo-text {
+        text-align: left;
+    }
+}
     </style>
 </head>
 <body class="selection:bg-stone-100 selection:text-stone-900">
