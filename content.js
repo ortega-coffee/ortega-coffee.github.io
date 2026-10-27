@@ -56,19 +56,16 @@ const siteContent = {
         sectionLabel: "News",
         sectionTitle: "Information",
         viewMoreText: "View More on Instagram",
-
-        
         
         articles: [
 
             {
-    date: "2026.04.11",
-    tag: "Media",
-    title: "「Things」様にてご紹介いただきました",
-    content: `現在、ウェブサイトを構成するPHPプログラムの一部において障害が発生しており、正常なコンテンツ更新および一部機能の提供を一時的に停止しております。ご不便をおかけいたしますが、何卒ご理解とご協力を賜りますようお願い申し上げます。,
-    image: "" 
-            
-},
+                date: "2026.03.01",
+                tag: "Notice",
+                title: "PHPプログラム障害に伴うサイト更新・一部機能の一時停止のお知らせ",
+                content: `現在、ウェブサイトを構成するPHPプログラムの一部において障害が発生しており、コンテンツ更新および一部機能の提供を一時的に停止しております。復旧時期は未定となります。最新情報につきましては、公式Instagram等のSNSにて順次お知らせしております。`,
+                image: "" 
+            },
             
              {
     date: "2026.04.11",
@@ -81,7 +78,6 @@ const siteContent = {
     image: "" 
             
 },
-            
             {
     date: "2026.03.15",
     tag: "Media",
