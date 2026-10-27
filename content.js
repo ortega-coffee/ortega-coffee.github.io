@@ -56,6 +56,8 @@ const siteContent = {
         sectionLabel: "News",
         sectionTitle: "Information",
         viewMoreText: "View More on Instagram",
+
+        
         
         articles: [
              {
@@ -69,6 +71,18 @@ const siteContent = {
     image: "" 
             
 },
+             {
+    date: "2026.04.11",
+    tag: "Media",
+    title: "「Things」様にてご紹介いただきました",
+    content: `新潟のウェブマガジン「Things」様にて、珈琲オルテガの店舗情報を記事にしていただきました。ぜひご覧ください。
+
+▼掲載記事はこちら
+<a href="https://things-niigata.jp/other/coffee-ortega-2/" target="_blank" rel="noopener noreferrer" class="text-stone-300 underline underline-offset-4 hover:text-white transition-colors">https://things-niigata.jp/other/coffee-ortega-2/</a>`,
+    image: "" 
+            
+},
+            
             {
     date: "2026.03.15",
     tag: "Media",
